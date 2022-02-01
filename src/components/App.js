@@ -7,8 +7,9 @@ const App = () => {
     return (
         <Switch>
         <Route exact path="/" component={HomePage} />
-        <Route path="/temp" component={Temp} />
         <Route path="/monkeys" component={Monkeys} />
+        <Route path="/temp" component={Temp} />
+        
       </Switch>
     );
   }
