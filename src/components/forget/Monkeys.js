@@ -198,10 +198,12 @@ const Monkeys = () => {
         monkeyGeo,
         new THREE.MeshPhongMaterial({ map: monkeyTexture })
       );
+      const url =
+        "https://mintable.app/COLLECTIBLES/item/Forget-the-Monkeys-Forget-the-Monkeys/0xc23d925684919c1619f13427817d3fee6c24debb:43801322239389666732387930045372828538993218405331709311839810462116972085317";
       monkeyPlain.position.z = -49;
       monkeyPlain.position.y = 50;
       monkeyPlain.userData = {
-        URL: "https://granish.org/namakner-hromeaci-barekamin/",
+        URL: url,
       };
       scene.add(monkeyPlain);
 
